@@ -1744,12 +1744,14 @@ a:focus {
     }
     &:hover{
       background-color: $primary4;
+      left: 50px;
     }
 
   }
-  // &:hover{
-  //   left: 0;
-  // }
+  &:hover{
+    left: 0;
+
+  }
 
 }
 
