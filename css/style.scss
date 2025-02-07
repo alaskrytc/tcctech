@@ -526,7 +526,7 @@ a:focus {
     align-items: center;
   }
 
-  #customCarousel1 {
+  #carouselExampleCaptions {
     width: 100%;
     position: unset;
   }
@@ -1204,9 +1204,13 @@ a:focus {
           scale: 2;
         }
       }
-      li{
-        list-style: circle;
+      ul{
+        margin: 20px;
+        li{
+          list-style: circle;
+        }
       }
+
       a{
         color: $primary2;
         transition: all 1.6s;

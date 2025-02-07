@@ -432,7 +432,7 @@ a:focus {
 .slider_section .row {
   align-items: center;
 }
-.slider_section #customCarousel1 {
+.slider_section #carouselExampleCaptions {
   width: 100%;
   position: unset;
 }
@@ -1079,7 +1079,10 @@ a:focus {
 .postblog-container .sidebar div span:hover {
   scale: 2;
 }
-.postblog-container .sidebar div li {
+.postblog-container .sidebar div ul {
+  margin: 20px;
+}
+.postblog-container .sidebar div ul li {
   list-style: circle;
 }
 .postblog-container .sidebar div a {
