@@ -1059,6 +1059,21 @@ a:focus {
   font-size: 0.9em;
   color: #777;
 }
+.postblog-container .post .postartical .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #231a6f;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.postblog-container .post .postartical .read-more:hover {
+  background-color: #0056b3;
+}
+.postblog-container .post .postartical ul li {
+  list-style: none;
+}
 .postblog-container .sidebar {
   flex: 1; /* Sidebar takes less space */
   padding-right: 20px;
